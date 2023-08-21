@@ -1,4 +1,4 @@
-package baek_11021;
+package baek_11022;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
