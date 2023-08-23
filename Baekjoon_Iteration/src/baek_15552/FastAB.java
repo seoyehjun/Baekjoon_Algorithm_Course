@@ -23,10 +23,10 @@ public class FastAB
 			//st에 담는 이유는 " "기준으로 분리해서 받기 위해서?
 			bw.write((Integer.parseInt(st.nextToken()))+(Integer.parseInt(st.nextToken()))+"\n");
 			//bw.write의 매개변수에 +문자열을 해서 문자열 형식으로 바꾸어 주어야 한다.
-			//System.out.println("test");
+			System.out.println("test");
 		}
 		
-		bw.close();
+		//bw.close();
 		
 	}
 }
