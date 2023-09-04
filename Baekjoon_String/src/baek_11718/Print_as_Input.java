@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Print_as_Input 
+public class Print_as_Input
 {
 	public static void main(String[] args) throws IOException
 	{
