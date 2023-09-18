@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Change_expression 
+public class ChangeExpress
 {
 	public static void main(String[] args) throws IOException
 	{
@@ -24,7 +24,7 @@ public class Change_expression
 		for(int i=0;i<str.length();i++)
 		{
 			if(str.charAt(i)>57) //알파벳이 왔을때
-			{										//str.length()-i-1는 현재 자릿수
+			{
 				tot += (str.charAt(i)-55)*Math.pow(expression, str.length()-i-1);
 			}
 			else
