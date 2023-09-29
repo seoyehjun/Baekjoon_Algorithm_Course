@@ -20,8 +20,8 @@ public class Mlength
 		
 		int result = nowX;
 		
-		if(nowY < nowX)
-			result = nowX;
+		if(nowY < result)
+			result = nowY;
 		
 		if((lenX-nowX)<result)
 			result = lenX-nowX;
