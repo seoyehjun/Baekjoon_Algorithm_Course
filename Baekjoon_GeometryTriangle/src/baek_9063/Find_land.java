@@ -38,12 +38,12 @@ public class Find_land
 				max_y = y_list[i];
 		}
 		
-		/*
+		
 		System.out.printf("min_x : %d\n",min_x);
 		System.out.printf("min_y : %d\n",min_y);
 		System.out.printf("max_x : %d\n",max_x);
 		System.out.printf("max_y : %d\n",max_y);
-		*/
+		
 		System.out.println(Math.abs(max_x-min_x)*Math.abs(max_y-min_y));
 	}
 }
