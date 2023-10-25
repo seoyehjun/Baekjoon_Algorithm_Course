@@ -30,6 +30,5 @@ public class Euclid
 		long A = Integer.parseInt(st.nextToken()),B = Integer.parseInt(st.nextToken());
 		
 		System.out.println(euc2(A,B));
-		
 	}
 }
