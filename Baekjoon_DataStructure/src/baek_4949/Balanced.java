@@ -50,7 +50,7 @@ public class Balanced
 					}
 					else
 					{
-						i +=isvalid(str,i)+1;
+						i +=isvalid(str,i);
 					}
 				}
 				
@@ -79,7 +79,7 @@ public class Balanced
 						return -1; //해당 문자열 유효하지 않음
 					}else
 					{
-						i +=isvalid(str,i)+1;
+						i +=isvalid(str,i);
 					}
 				}
 				
