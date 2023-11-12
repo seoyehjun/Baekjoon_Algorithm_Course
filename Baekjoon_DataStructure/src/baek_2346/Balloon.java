@@ -33,7 +33,7 @@ public class Balloon
         {
         	queue.add(new Balloon1( i + 1 , moveset[i]) );
         }
-       
+        
         while(!queue.isEmpty())
         {
         	if(action > 0)
@@ -43,8 +43,8 @@ public class Balloon
         			queue.add(queue.poll());
         		}
         		Balloon1 now = queue.poll();
-        		action = now.numValue;
-        		sb.append(now.index+" ");
+        		action = now.moving;
+        		sb.append(now.label+" ");
         	}
         	else
         	{
@@ -54,22 +54,23 @@ public class Balloon
         		}
         		
         		Balloon1 now = queue.pollLast();
-        		action = now.numValue;
-        		sb.append(now.index+" ");
+        		action = now.moving;
+        		sb.append(now.label+" ");
         	}
         }
         System.out.println(sb);
     }
 }
-//풍선의 인덱스와 숫자 값을 저장하는 클래스 Balloon
+
+
 class Balloon1{
-    int index;
-    int numValue;
+    int label;
+    int moving;
 
     public Balloon1(int index, int numValue) 
     {
-        this.index = index;
-        this.numValue = numValue;
+        this.label = index;
+        this.moving = numValue;
     }
 }
     
