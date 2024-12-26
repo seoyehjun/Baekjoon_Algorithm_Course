@@ -15,7 +15,7 @@ public class Movienaming
 		for(int i=0;i<=2;i++)
 		{
 			
-			String temp="666";
+			String temp="666";            //몇자리까지 숫자를 만들것이냐
 			for(int alpa=1;alpa<(int)Math.pow(10, i);alpa++)
 			{
 				System.out.println(Math.pow(10, i));

@@ -9,10 +9,11 @@ public class Plus2D2D
 {
 	public static void main(String[] args) throws IOException
 	{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));                     )
 		StringTokenizer st;
 		
 		st = new StringTokenizer(br.readLine());
+		
 		int n= Integer.parseInt(st.nextToken());
 		int m = Integer.parseInt(st.nextToken());
 		

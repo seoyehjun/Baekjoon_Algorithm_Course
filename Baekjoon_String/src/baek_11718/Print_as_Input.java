@@ -15,6 +15,11 @@ public class Print_as_Input
 		String temp;
 		int count = 0;
 		
+		while((temp_string = br.readLine()) != null)
+		{
+			list[count++] = temp_string;
+		}
+		
 		while((temp = br.readLine()) !=null)
 		{
 			list[count] = temp;

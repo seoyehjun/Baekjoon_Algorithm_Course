@@ -25,6 +25,7 @@ public class AgeNamesorting
 			list[i][1] = st.nextToken();
 		}
 		
+		
 		Arrays.sort(list,(e1,e2) ->{
 			return Integer.parseInt(e1[0])- Integer.parseInt(e2[0]);
 		});
