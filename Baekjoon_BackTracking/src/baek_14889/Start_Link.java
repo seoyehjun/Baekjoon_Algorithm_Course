@@ -1,3 +1,5 @@
+package baek_14889;
+
 import java.util.Scanner;
 
 public class Start_Link
