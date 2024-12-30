@@ -1,0 +1,50 @@
+package baek_9663;
+
+import java.util.Scanner;
+
+public class NQueen2
+{
+    static int N;
+    static int[] board;
+    static int count = 0;
+
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        N = sc.nextInt();
+        board = new int[N];
+
+        solveNQueen(0);
+        System.out.println(count);
+    }
+
+    public static void solveNQueen(int row)
+    {
+        if (row == N)
+        {
+            count++;
+            return;
+        }
+
+        for (int col = 0; col < N; col++)
+        {
+            if (isSafe(row, col))//퀸끼리 잡히는 경우 아예 재귀로 다음할당 하지 않는다.(백트레킹)
+            {
+                board[row] = col;
+                solveNQueen(row + 1);
+            }
+        }
+    }
+
+    public static boolean isSafe(int row, int col)
+    {
+        for (int i = 0; i < row; i++)
+        {
+            if (board[i] == col || Math.abs(board[i] - col) == Math.abs(i - row))
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+}
