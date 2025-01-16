@@ -1,4 +1,4 @@
-package baek_1921;
+package baek_1912;
 
 import java.util.Scanner;
 
