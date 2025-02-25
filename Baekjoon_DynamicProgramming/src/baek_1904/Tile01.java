@@ -30,7 +30,7 @@ public class Tile01
             else//i=3 부터 실행
             {//i는 1부터 순차적으로 +1된다
                 que.add((que.remove()+que.peek())%15746);
-            }
+            }   //먼저들어온걸 빼는 큐의 성질 이용
         }
 
         System.out.println(que.pollLast());
