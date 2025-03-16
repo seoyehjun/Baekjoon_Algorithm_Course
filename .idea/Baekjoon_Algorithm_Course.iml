@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Baekjoon_BackTracking/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Baekjoon_Recursion/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Baekjoon_DynamicProgramming/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Baekjoon_CumulativeSume" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

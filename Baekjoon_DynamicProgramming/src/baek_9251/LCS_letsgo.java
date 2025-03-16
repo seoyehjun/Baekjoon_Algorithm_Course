@@ -16,8 +16,6 @@ public class LCS_letsgo
         String s1 = br.readLine();
         String s2 = br.readLine();
 
-        
-
 
     }
 }
